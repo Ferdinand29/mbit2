@@ -1,0 +1,26 @@
+{
+    "name": "mbit小车底层遥控程序",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "mbit": "github:lzty634158/yahboom_mbit#0786466731e136e26bc4736470666830d14c4f2f",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.25",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
